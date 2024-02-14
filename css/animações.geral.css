@@ -1,0 +1,45 @@
+@keyframes flutuando {
+    0%{
+        transform: translateY(5px);
+    }
+
+    50%{
+        transform: translateY(-5px);
+    }
+
+    100%{
+        transform: translateY(5px);
+    }
+}
+
+.hidden, .hidden_one{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show, .show_one{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
+.hidden_up{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(100%);
+    transition: all 1s;
+}
+
+.show_up{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0);
+}
+
+/*hidden*/
+
+/*hidden_one*/
+
+/*hidden_right*/
